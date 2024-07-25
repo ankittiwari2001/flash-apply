@@ -1,0 +1,27 @@
+<!-- public/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flash-Apply</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Send Job Application Email</h1>
+        <form action="/send-email" method="post">
+            <label for="company_name">Company Name:</label>
+            <input type="text" id="company_name" name="company_name" required>
+
+            <label for="Position">Position:</label>
+            <input type="text" id="Position" name="Position" required>
+
+            <label for="company_email">Company Email:</label>
+            <input type="email" id="company_email" name="company_email" required>
+
+            <button type="submit">Send Email</button>
+        </form>
+    </div>
+</body>
+</html>
