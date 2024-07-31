@@ -27,7 +27,7 @@ async function send_mail(req, res) {
     const mail_options = {
         from: EMAIL,
         to: company_email,
-        subject: `'Application for ${Position}`,
+        subject: `Application for ${Position}`,
         text: email_tamplate(company_name, Position),
         attachments: [{
             filename: "Ankit_tiwari_FullStack_2_Years.pdf",
