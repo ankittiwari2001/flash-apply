@@ -21,7 +21,7 @@ Follow these steps to get your development environment set up:
 1. **Clone the repository**
 
     ```bash
-    git clone https://github.com/yourusername/flash-apply.git
+    git clone https://github.com/ankittiwari2001/flash-apply.git
     cd flash-apply
     ```
 
